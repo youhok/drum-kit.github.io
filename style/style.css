@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100;200&display=swap');
+
+@font-face {
+    font-family: "THE AMAZING SPIDER-MAN";
+    src: url(../fonts/The\ Amazing\ Spider-Man.ttf) format("truetype");
+
+}
+
+@font-face{ 
+    font-family: "Hypereality";
+    src: url(../fonts/Hypereality\ Sans\ Serif.ttf) format("truetype");
+}
+
+body {
+    font-family: 'Ysabeau', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #14213d;
+}
+
+.key-word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hypereality";
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #fca311;
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+}
+
+.drum-kit-header{
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "THE AMAZING SPIDER-MAN";
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 8px solid #415a77;
+    border-radius: 10px;
+    background-color: #fff;
+    background-size:contain;
+}
+
+.box-boder-pressed {
+    border: 8px solid #ffb703;
+}
+
+.box-1 {
+    background-image: url(../images/tom1.png);
+}
+
+.box-2 {
+    background-image: url(../images/tom2.png);
+
+}
+
+.box-3 {
+    background-image: url(../images/tom3.png);
+
+}
+
+.box-4 {
+    background-image: url(../images/tom4.png);
+
+}
+
+.box-5 {
+    background-image: url(../images/snare.png);
+
+}
+
+.box-6 {
+    background-image: url(../images/crash.png);
+
+}
+
+.box-7 {
+    background-image: url(../images/kick.png);
+    height: 300px;
+    width: 300px;
+}
+
+.make-by {
+    color: #ffffff;
+    font-family: "Hypereality";
+    font-size: 20px;
+}
+
+.version {
+    font-family: "Hypereality";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 414px) { 
+    .box{
+        height: 150px;
+        width: 150px;
+    }
+
+ }
